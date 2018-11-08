@@ -1,0 +1,22 @@
+{
+  "name": "firrtl-package",
+  "version": "0.0.1",
+  "description": "An NPM package wrapper for FIRRTL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackkoenig/firrtl-package.git"
+  },
+  "author": "Jack Koenig <@jackkoenig>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jackkoenig/firrtl-package/issues"
+  },
+  "homepage": "https://github.com/jackkoenig/firrtl-package#readme",
+  "scripts": {
+    "postinstall": "git clone git@github.com:freechipsproject/firrtl.git"
+  }
+}
