@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
 if [ ! -d firrtl ]; then
-  git clone git@github.com:freechipsproject/firrtl.git
+  git clone --depth 1 git@github.com:freechipsproject/firrtl.git
 fi
 
