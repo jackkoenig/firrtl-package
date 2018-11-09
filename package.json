@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/jackkoenig/firrtl-package#readme",
   "scripts": {
-    "postinstall": "git clone git@github.com:freechipsproject/firrtl.git"
+    "postinstall": "./install.sh"
   }
 }
